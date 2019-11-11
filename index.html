@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Stixie webpage</title>
+	   <link rel="stylesheet" href="git/Stixie.nu/style.css">
     <style>
       button {
         border-color: red;
@@ -12,12 +13,55 @@
         width:250px;
 
       }
+		
+	body
+		{
+			background-image: url('https://thumbs.gfycat.com/ParchedPositiveBarebirdbat-small.gif');
+		}
+		
+		
+		
     </style>
   </head>
   
-  <body style="background-color:red;">
+  <body>
 	  <audio controls>
         <source src="bilder/yzn.mp3">
+		  <canvas id="canv"></canvas>
+			<h2>Midnight Snow</h2>
+	<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+</div>
+
     </audio>
     <h1>  i am god D: </h1>
     <p1> Best page eu </p1>
@@ -47,21 +91,6 @@
     
   </body>
   <script>
-let colors = "red blue green";
-const speed = 1;
 
-let body = document.getElementsByTagName("body")[0];
-colors = colors.split(" ");
-body.style.backgroundColor = colors[0];
-let current = 0;
-setInterval(function() {
-    if(current == colors.length - 1) {
-        current = 0;
-        body.style.backgroundColor = colors[0];
-    } else {
-        current++;
-        body.style.backgroundColor = colors[current];
-    }
-}, speed);
 </script>
 </html>
