@@ -19,6 +19,55 @@
 			background-image: url('https://thumbs.gfycat.com/ParchedPositiveBarebirdbat-small.gif');
 		}
 		
+		html, body {
+ 
+}
+
+body {
+
+  font-family: 'Creepster';
+  
+}
+
+h1 {
+  
+  letter-spacing: 6px;
+  font-size: 100px;
+  font-weight: 20;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(45deg, 
+                    #40bc00, 
+                    #164b00,
+                    #be1717,
+                    #be1717);
+  animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+		
+		
+
+
+
+		
 		
 		
     </style>
@@ -29,6 +78,11 @@
         <source src="bilder/yzn.mp3">
 		  <canvas id="canv"></canvas>
 			<h2>Midnight Snow</h2>
+		<section id="canvas">
+  <div class="circle"></div>
+</section>
+
+	<img id="image" src="https://www.regeringen.se/globalassets/regeringen/bilder/regeringen/bilder-statsradssidor/stefanlofven_1-150px.jpg?preset=Portrait_3x4_150x200"/>
 	<div class="snowflakes" aria-hidden="true">
   <div class="snowflake">
   ❅
@@ -91,6 +145,6 @@
     
   </body>
   <script>
-
+	  
 </script>
 </html>
