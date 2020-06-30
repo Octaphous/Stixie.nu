@@ -1,1 +1,6 @@
-cd .. && git stage * & git commit -m "Update Website" & git push
+cd ..
+git add .
+git commit -m "Updated Websites"
+git push
+echo "[------------------------ DONE ------------------------]"
+pause
